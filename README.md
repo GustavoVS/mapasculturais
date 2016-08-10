@@ -97,13 +97,26 @@ Vale lembrar que os requisitos de hardware podem variar de acordo com a latênci
 ### Ambientes de desenvolvimento e teste
 Estes ambientes possuem integração contínua com os branches e temas atuais. Para maiores detalhes, ver [Guia do desenvolvedor](doc/developer-guide.md). 
 
-* http://master.map.as
-* http://rc.map.as
-* http://stable.map.as
+As urls de testes functionam da seguinte maneira:
 
-Para acessar os temas, use a url com nome do tema ou instalação. Ex.: 
+nomedacidade.uf.ambiente.map.as e
+uf.ambiente.map.as
 
-* http://museus.minc.stable.map.as
+Os ambientes possíveis são 'stable', 'rc' e 'master', onde:
+
+stable: É a última versão de produção que está disponibilizada do software
+rc: Sigla de "Release Candidate", onde as features (funcionalidades) são homologadas antes de irem para a versão "stable"
+master: Ambiente de desenvolvimento, em constante evolução antes de ter pacotes de features para irem para a versão "rc"
+
+Exemplos:
+saopaulo.sp.stable.map.as
+blumenau.sc.rc.map.as
+santoandre.sp.master.map.as
+ce.rc.map.as
+rs.stable.map.as
+df.master.map.as
+museus.minc.rc.map.as (minc)
+bibliotecas.minc.stable.map.as (minc)
 
 ### Stories & Tests
 
