@@ -93,7 +93,8 @@ Vale lembrar que os requisitos de hardware podem variar de acordo com a latênci
 
 * [Lista de discussão](https://groups.google.com/forum/?hl=en#!forum/mapas-culturais)
 * [Chat de discussão](http://chat.mapasculturais.org)
-* 
+
+
 ### Ambientes de desenvolvimento e teste
 Estes ambientes possuem integração contínua com os branches e temas atuais. Para maiores detalhes, ver [Guia do desenvolvedor](doc/developer-guide.md). 
 
